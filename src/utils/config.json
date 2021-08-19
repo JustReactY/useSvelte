@@ -1,0 +1,25 @@
+{
+    "configs": [
+        {
+            "type": "text",
+            "name": "xxx", 
+            "label": "变量值",
+            "description": "简介",
+            "defaultValue": "0",
+            "clickTip": "点击弹出详细的参数介绍",
+            "param": {
+                "placeholder": "提示信息"
+            },
+            "validation": [
+                {
+                    "type": "general",
+                    "rules": [
+                        {
+                            "type": "required"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
