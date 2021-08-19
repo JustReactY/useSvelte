@@ -23,6 +23,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@lit/reactive-element@^1.0.0-rc.2":
+  version "1.0.0-rc.2"
+  resolved "http://registry.m.jd.com/@lit/reactive-element/download/@lit/reactive-element-1.0.0-rc.2.tgz#f24dba16ea571a08dca70f1783bd2ca5ec8de3ee"
+  integrity sha1-8k26FupXGgjcpw8Xg70speyN4+4=
+
 "@polka/url@^1.0.0-next.17":
   version "1.0.0-next.17"
   resolved "http://registry.m.jd.com/@polka/url/download/@polka/url-1.0.0-next.17.tgz#25fdbdfd282c2f86ddf3fcefbd98be99cd2627e2"
@@ -116,6 +121,11 @@
   integrity sha1-z0Zb0f6khtAzH3YNsCPeFNr0mA0=
   dependencies:
     "@types/node" "*"
+
+"@types/trusted-types@^1.0.1":
+  version "1.0.6"
+  resolved "http://registry.m.jd.com/@types/trusted-types/download/@types/trusted-types-1.0.6.tgz#569b8a08121d3203398290d602d84d73c8dcf5da"
+  integrity sha1-VpuKCBIdMgM5gpDWAthNc8jc9do=
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -435,6 +445,30 @@ kleur@^3.0.0:
   version "3.0.3"
   resolved "http://registry.m.jd.com/kleur/download/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=
+
+lit-element@^3.0.0-rc.2:
+  version "3.0.0-rc.2"
+  resolved "http://registry.m.jd.com/lit-element/download/lit-element-3.0.0-rc.2.tgz#883d0b6fd7b846226d360699d1b713da5fc7e1b7"
+  integrity sha1-iD0Lb9e4RiJtNgaZ0bcT2l/H4bc=
+  dependencies:
+    "@lit/reactive-element" "^1.0.0-rc.2"
+    lit-html "^2.0.0-rc.3"
+
+lit-html@^2.0.0-rc.3:
+  version "2.0.0-rc.3"
+  resolved "http://registry.m.jd.com/lit-html/download/lit-html-2.0.0-rc.3.tgz#1c216e548630e18d3093d97f4e29563abce659af"
+  integrity sha1-HCFuVIYw4Y0wk9l/TilWOrzmWa8=
+  dependencies:
+    "@types/trusted-types" "^1.0.1"
+
+lit@^2.0.0-rc.2:
+  version "2.0.0-rc.2"
+  resolved "http://registry.m.jd.com/lit/download/lit-2.0.0-rc.2.tgz#724a2d621aa098001d73bf7106f3a72b7b5948ef"
+  integrity sha1-ckotYhqgmAAdc79xBvOnK3tZSO8=
+  dependencies:
+    "@lit/reactive-element" "^1.0.0-rc.2"
+    lit-element "^3.0.0-rc.2"
+    lit-html "^2.0.0-rc.3"
 
 livereload-js@^3.3.1:
   version "3.3.2"
